@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/flat_button"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:background="#D38008"
+        android:layout_marginBottom="10dp"
+
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <Button
+            android:id="@+id/buttonsun"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:background="#ECC754"
+            android:drawableLeft="@mipmap/sun"
+            android:paddingStart="60dp"
+            android:paddingLeft="60dp"
+            android:text="NEW YORK"
+            android:layout_marginBottom="10dp"
+
+            />
+
+        <Button
+            android:id="@+id/buttonmail"
+            android:layout_width="160dp"
+            android:layout_height="85dp"
+            android:layout_alignParentRight="true"
+            android:background="#8CDAE4"
+            android:drawableLeft="@mipmap/email"
+            android:paddingStart="60dp"
+            android:paddingLeft="60dp"
+            />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/buttonarrow"
+            android:layout_width="160dp"
+            android:layout_height="85dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/buttonmail"
+            android:background="#566573"
+            android:drawableLeft="@mipmap/arrow"
+            android:paddingStart="60dp"
+            android:paddingLeft="60dp"
+            />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="240dp"
+            android:layout_height="80dp"
+            android:text="@string/search_button"
+            android:background="#D38008"
+            android:layout_marginRight="15dp"
+            android:drawableLeft="@mipmap/search"
+            android:paddingStart="20dp"
+            android:paddingLeft="20dp"
+            />
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:background="#ECC754"
+            android:drawableLeft="@mipmap/clock"
+            android:paddingStart="50dp"
+            android:paddingLeft="50dp"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/playing_button"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:drawableLeft="@mipmap/muslicplayer"
+            android:background="#8CDAE4"
+            android:paddingStart="20dp"
+            android:paddingLeft="20dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
